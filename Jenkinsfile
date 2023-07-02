@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat 'python master.py'
+                bat 'python MySoftware.py'
             }
         }
     }
