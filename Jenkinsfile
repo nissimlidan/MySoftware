@@ -4,8 +4,9 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                bat 'python MySoftware\\click.py'
+                bat 'start python MySoftware\\click.py'
             }
         }
     }
 }
+
